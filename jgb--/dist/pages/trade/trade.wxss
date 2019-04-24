@@ -1,0 +1,92 @@
+page {
+  background: #ededed; }
+
+.wrap {
+  padding: 30rpx;
+  background: #fff; }
+  .wrap .top-nav {
+    border: 2rpx solid #1b65ce;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    border-radius: 3px; }
+    .wrap .top-nav view {
+      width: 50%;
+      padding: 20rpx 0;
+      text-align: center;
+      color: #1b65ce; }
+      .wrap .top-nav view.active {
+        background: #1b65ce;
+        color: #fff; }
+
+.trade-wrap {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin: 20rpx;
+  background: #fff; }
+  .trade-wrap .title {
+    display: flex;
+    padding: 20rpx 20rpx;
+    border-bottom: 2px solid #1b65ce;
+    color: #1b65ce; }
+    .trade-wrap .title .text {
+      width: 60%;
+      font-size: 40rpx;
+      padding-left: 8rpx;
+      border-left: 2rpx solid #1b65ce; }
+    .trade-wrap .title .choose-wrap {
+      width: 40%;
+      display: flex;
+      font-size: 32rpx; }
+      .trade-wrap .title .choose-wrap view {
+        width: 50%;
+        text-align: center;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABZVBMVEUAAAAbZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc4bZc6iwOv4+v2NsueErOT////w9fxckdz8/f6Zuuk8e9Xy9vzD1/IeZ88obtHb5/fg6vgscNItcdJmmN4qb9G80vH0+P1DgNfZ5vfh6/k4eNSUt+j+/v9jlt7q8fvj7Pk5etVqmt+NsuZTi9r2+f3l7fk7e9VIg9i2ze8cZs5Sitrn7/o+fdUuctLX5PYlbNBRidry9/zp8Po/fdYgac/I2vPt8/tPiNlBftakwetWjdtLhtjx9fzs8vt5pOJ9p+NJhNjv9Pzu9Pv6+/6nxOxHg9fM3fRFgdfm7vowc9NBf9YAAACON1jxAAAAK3RSTlMAAjd4rNLt+ByH4hOV+VbrVwSXCrOxmFkVHvrjedPsOFhamQa2tAUUiOTurET7DQAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAHESURBVDjLjZVpW9pAFIWHENAgiAbBskVcqsh0OS21UlxBW7dqaevSna6UVrFu/f9GCOEyZPF8uifzPjPJfW7OMEblkbyyz9/X5/fJXsnD7NSvBDhRQOm3xAaCIS4oFBzo5QbD3ELhIQEbVrmN1GHKRUa4rUYiZL8od1C0s2eMOyrW5oa4i0aNvoTdQP+dJqi6ccbh8YQ7mIjroOLOca7oc5B0WL93/0GrSHqY5MA9BB4ZpcRS9tzjPPDEqL1MtuXmngLzBcPILG3HPSsCC4ttl2Zau1xaXqFcYRUolU2rMXNa17D+nIAvgI3Njg11wC1ge8dceLkB7HIKmkfvvQIqrw3zRjdv9wmokY85KAGHR83yXQV4/4G+cpq25+Mn4PMXvah+Bb7tUE5vD234d71zWz84/wnkf3U3y8vGqK39BurlPwD+Cl2VhKE4PgEap8A/gdOHQhizs4a+Hc6rAqjcBEl3QFzUgcsrgQs1wyXY/fB/sVITOK62fi6Nu0gzIijjBo7fMgAmzKSYdI6USRJSU/bcXRJSjE3bnh6bFhIyYx2ko72RO6P2RrM6Yx322VmKzWatw751faRkXy6RyPnklHB9XAO8Fd1EbRSbVgAAAABJRU5ErkJggg==) no-repeat;
+        background-size: 35rpx 35rpx; }
+        .trade-wrap .title .choose-wrap view.active {
+          background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABF1BMVEUAAAC5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubni4uL9/f3c3NzZ2dn////6+vrNzc3+/v7g4ODDw8P7+/vt7e26urq9vb309PT19fW+vr7Q0NDq6ur8/PzFxcXz8/P29vbCwsLe3t7Pz8/5+fnR0dHLy8v39/fHx8fo6OjKysr4+PjExMS/v7+8vLzJycm7u7vu7u7j4+PIyMjW1tbX19fk5OTGxsbv7+/AwMAAAADgv0b5AAAAK3RSTlMAAjd4rNLt+ByH4hOV+VbrVwSXCrOxmFkVHvrjedPsOFhamQa2tAUUiOTurET7DQAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAGpSURBVDjLjZXpVsIwEIVDKUtZBMomW0VRtggOIoiKAi4IuKOo6Pu/h6EUGEIX76+Z5juZZM70hhAsm2AXHU6Xy+kQ7YKNGMkteSiSR3LrYl6fn3Ly+7yb3FaA6igQ5LCQTA0khzAXjlBDRcJovyg1UXS1Z4yaKrbggtRCca0vASvQua2CshWnFU8krcFkgoGSNUepxOYgZbJ+WKnOg5SNCCbcEUBNCwWSNuaO6wAnWmwnoiHXaAKctrREJBkj7uwc4KK9yDJEWYTtyzbmWlcAne4yVchyWntwfYPAWwC4W6X+FdgHTN4zrkoxuCw96AAMG1oyYskDPomCLvPIFp+e1fBlCNB7xWAGt+etqZHjd9ZpfOBZe3DDZ2Sf3fQDoD5Yb5ad7OB0opKf7CJfXFcFbihGNVa0AvDNcWwouDGbMhLgZ8yB0sxI1g1iyvo5/OU4v2ouvvWP3fPhhOOoPP+5FGohRbOgrBW4+08D2Fs6Rc7cUnLIpPaNuQNkUoTkDavH8pxDZvWNNL5puQV505rlgr7ZF0sYKxX1zX7+fKRFRzmZLDvENPd8/AGGgdg0WixUhAAAAABJRU5ErkJggg==) no-repeat;
+          background-size: 35rpx 35rpx;
+          color: #ddd; }
+  .trade-wrap .trade-record {
+    margin: 0 20rpx;
+    border-left: 2rpx solid #ddd;
+    padding: 10rpx 0; }
+    .trade-wrap .trade-record:last-child .bottom,
+    .trade-wrap .trade-record:last-child .earnings {
+      border-bottom: none; }
+    .trade-wrap .trade-record .top {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 28rpx;
+      margin-bottom: 20rpx;
+      font-size: 36rpx;
+      padding-top: 10rpx;
+      position: relative; }
+      .trade-wrap .trade-record .top .circle {
+        position: absolute;
+        background: #fff;
+        width: 20rpx;
+        height: 20rpx;
+        border: 2rpx solid #1b65ce;
+        border-radius: 100%;
+        top: 50%;
+        margin-top: -10rpx;
+        left: -37rpx; }
+    .trade-wrap .trade-record .bottom {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 2rpx solid #ddd;
+      margin-left: 20rpx;
+      padding-bottom: 20rpx; }
+      .trade-wrap .trade-record .bottom image {
+        width: 40rpx;
+        height: 40rpx;
+        margin-left: 8rpx; }
+      .trade-wrap .trade-record .bottom text {
+        color: #fb565c; }
+    .trade-wrap .trade-record .earnings {
+      border-bottom: 2rpx solid #ddd;
+      margin-left: 20rpx;
+      padding-bottom: 20rpx; }
+      .trade-wrap .trade-record .earnings text {
+        color: #fb565c; }

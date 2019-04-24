@@ -1,0 +1,32 @@
+$themeColor:#1b65ce;
+page {
+    background: #ededed;
+    padding: 20rpx;
+    width: auto;
+}
+
+.title {
+    font-size: 32rpx;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text {
+        font-size: 36rpx;
+        color: $themeColor;
+    }
+}
+textarea{
+    width: auto;
+    padding: 10px;
+    border: 2rpx solid #ddd;
+    background:#fff;
+    border-radius: 3px;
+    height: 200px;
+    line-height: 20px;
+    font-size: 32rpx;
+
+}
+button {
+    font-size: 36rpx;
+    margin-top: 100rpx;
+}

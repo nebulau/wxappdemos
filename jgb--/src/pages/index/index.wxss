@@ -1,0 +1,78 @@
+page {
+    background: #ededed;
+    height: 100%;
+}
+.logo {
+	width: 280rpx;
+    height: 90rpx;
+    margin: 0 auto;
+    padding: 50rpx 0;
+}
+.brand {
+    padding: 0 20rpx;
+    margin-bottom: 120rpx;
+    color: #1b65ce;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.user {
+  padding: 10rpx 0;
+  width: 480rpx;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid #1b65ce;
+  background: transparent;
+  border-radius: 0;
+  font-size: 30rpx;
+  margin-bottom: 40rpx;
+  position: relative;
+}
+.pwd {
+  padding: 10rpx 0;
+  width: 480rpx;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px solid #1b65ce;
+  background: transparent;
+  border-radius: 0;
+  font-size: 30rpx;
+  margin-bottom: 40rpx;
+  position: relative;
+}
+.eye {
+        z-index: 99;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url(../../images/index/eye-open.png) no-repeat center;
+        background-size: 30px 24px;
+    }
+.forget-pwd {
+    text-align: right;
+    margin: 0 auto 40rpx;
+    width: 480rpx;
+}
+.batn {
+    margin-bottom: 40rpx;
+    width: 480rpx;
+    height: 80rpx;
+    color: #1b65ce;
+    font-size: 30rpx;
+    border: 2rpx solid #1b65ce;
+    border-radius: 35rpx;
+    background-color: transparent;
+}
+.register {
+    text-align: right;
+    margin: 0 auto 20rpx;
+    width: 480rpx;
+}
+.bg{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+}
